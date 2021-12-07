@@ -1,9 +1,9 @@
-#include <string.h>
+#include <string>
 
 class MerkleNode{
     public:
 
-    MarkleTree(){};
+    MarkleNode(){};
 
     private:
 
