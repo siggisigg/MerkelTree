@@ -3,30 +3,30 @@
 class MerkleNode{
     public:
 
-    MarkleNode(){};
+    MerkleNode(){};
+    ~MerkleNode(){};
+
+    // Syncronize
+
+    // Insert 
+
+    // Delete 
+
+    // Check size
 
     private:
 
     int size;
+    
     std::string Keyhash;
     MerkleNode *Parent;
     MerkleNode *Child;
-
-}
-//Syncronize
-
-// Insert 
-
-// Delete 
-
-// Check size
+};
 
 
+int main(){
 
+    MerkleNode *j;
 
-void Main(){
-
-    std::hash;
-
-
+    return 0;
 }
