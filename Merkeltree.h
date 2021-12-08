@@ -34,11 +34,3 @@ class MerkleNode{
     MerkleNode *ChildL;
     MerkleNode *ChildR;
 };
-
-
-int main(){
-
-    MerkleNode *j;
-
-    return 0;
-}
