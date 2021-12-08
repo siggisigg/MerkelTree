@@ -1,4 +1,4 @@
-#include <home/siggi/MerkelTree/Merkeltree.h>
+#include "Merkeltree.h"
 
 int main(int argc, char const *argv[])
 {
