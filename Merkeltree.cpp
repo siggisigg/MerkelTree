@@ -6,21 +6,33 @@ class MerkleNode{
     MerkleNode(){};
     ~MerkleNode(){};
 
-    // Syncronize
+    // Syncronize / Balance
+    void Synctree(MerkleNode *root);
 
     // Insert 
+    void Insertnode(MerkleNode *addme);
 
     // Delete 
+    void Deletenode(MerkleNode *removeme);
 
     // Check size
+    int Returnsize(){return size;};
 
     private:
 
+    // Size counter for the tree
     int size;
+
+    // Data and hash 
     
+    std::string Data;
     std::string Keyhash;
+
+    // Point to parent
     MerkleNode *Parent;
-    MerkleNode *Child;
+    // Pointer to children left and right
+    MerkleNode *ChildL;
+    MerkleNode *ChildR;
 };
 
 
